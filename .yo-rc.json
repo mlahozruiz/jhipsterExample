@@ -1,0 +1,28 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.0.0",
+    "baseName": "jhipsterExample",
+    "packageName": "com.peta.jhipster",
+    "packageFolder": "com/peta/jhipster",
+    "serverPort": "8085",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "oracle",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "jwtSecretKey": "d546657d8053868f0cb100618e4dc10f0ccfd999",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ]
+  }
+}
